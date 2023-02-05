@@ -72,6 +72,16 @@
     padding: 3rem 3rem;
     min-height: 100vh;
   }
+
+  .description {
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+
+.h1 {
+  font-size: 2rem;
+  line-height: 1.325;
+}
 }
 
 @media (prefers-color-scheme: dark) {
