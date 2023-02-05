@@ -12,7 +12,7 @@ export default function Home() {
         BeyondSite is coming back soon, different, and better than ever.
       </h1>
       <p className={`base-input-class ${inter.className} ${styles.description}`}>
-        We’re in the process of building a new website while we roll out an entirely new brand identity system. This experiential website will show a complete picture of the event services we provide, the principles that guide us, the types of work we’re best at, and unique pathways for clients to connect & work with us, event workers to get involved & work with us, and the universal events community to see what we’re up to.
+        We’re in the process of building a new website while we roll out an entirely new brand identity system. This experiential website will show a complete picture of the event services we provide, the principles that guide us, the types of work we’re best at, and unique pathways for clients to connect & hire us for event program management, event staffing, and event wrap-up; event workers to join the tribe & work with us; and the global events community to see what we’re up to.
         </p>
       </div>
     </main>
