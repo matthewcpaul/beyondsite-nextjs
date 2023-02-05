@@ -5,6 +5,7 @@
   align-items: center;
   padding: 0 3rem;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .description {
@@ -78,21 +79,32 @@
     line-height: 1.75;
   }
 
-.h1 {
-  font-size: 2rem;
-  line-height: 1.325;
-}
+  .h1 {
+    font-size: 2rem;
+    line-height: 1.325;
+  }
+
+  .center::before {
+    display: none;
+  }
+  
+  .center::after {
+    height: 480px;
+    width: 400px;
+    left: 0%;
+    margin-left: -24px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
-  .vercelLogo {
+  /* .vercelLogo {
     filter: invert(1);
   }
 
   .logo,
   .thirteen img {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
+  } */
 }
 
 @keyframes rotate {
