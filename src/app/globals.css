@@ -79,6 +79,16 @@
   }
 }
 
+/* Mobile */
+@media (max-width: 720px) {
+  :root {
+    --primary-glow: radial-gradient(
+      rgba(1, 65, 255, 0.5),
+      rgba(1, 65, 255, 0)
+    );
+  }
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
