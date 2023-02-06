@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 3rem;
+  padding: 0 2rem;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -70,7 +70,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 3rem 3rem;
+    padding: 2rem 2rem 0 2rem;
     min-height: 100vh;
   }
 
