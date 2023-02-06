@@ -8,11 +8,14 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.center}>
-      <h1 className={`base-input-class ${inter.className} ${styles.h1}`}>
-        BeyondSite is evolving soon. It will be different, and better than ever.
-      </h1>
-      <p className={`base-input-class ${inter.className} ${styles.description}`}>
-        We’re in the process of building a new website while we roll out an entirely new brand identity system. This experiential website will show a complete picture of the event services we provide, the principles that guide us, the types of work we’re best at, and unique pathways for clients to connect with & hire us for event program management, staffing, and event staff leadership; event workers to join the tribe & work with us; and the global events community to see what we’re up to.
+        <h1 className={`base-input-class ${inter.className} ${styles.h1}`}>
+        Welcome to BeyondSite, your event staffing leadership partner for big-production events and conferences.
+        </h1>
+        <p className={`base-input-class ${inter.className} ${styles.description}`}>
+          Our website is currently undergoing a relaunch with a brand new look and feel, and we're stoked to share our story and services in an experiential fashion. Check back in March for our official brand launch. For any current event staffing and management inquiries, please feel free to reach out to us at <a href="mailto:ryan@beyond.site">ryan@beyond.site</a>.
+        </p>
+        <p className={`base-input-class ${inter.className} ${styles.description}`}>
+        See you on-site in the meantime!
         </p>
       </div>
     </main>
