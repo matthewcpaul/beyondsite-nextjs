@@ -1,3 +1,59 @@
+.wrapper {
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.logoLight {
+  display: block;
+}
+
+.logoDark {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logoLight {
+    display: none;
+  }
+  
+  .logoDark {
+    display: block;
+  }
+}
+
+.navPrimary {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.navLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navLinkActive {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #3C8852;
+  text-decoration-thickness: 0.125em;
+  text-underline-offset: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .navLinkActive {
+    text-decoration-color: #C5FD55;
+  }
+}
+
 .main {
   display: flex;
   flex-direction: column;
