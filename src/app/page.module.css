@@ -39,7 +39,7 @@
 .navLink {
   font-size: 1.125rem;
   line-height: 1.5rem;
-  color: inherit;
+  color: #A2FFCB;
   text-decoration: none;
 }
 
@@ -68,7 +68,7 @@
 }
 
 /* Mobile */
-@media (max-width: 720px) {
+@media (max-width: 960px) {
   .wrapper {
     padding-right: 1.5rem;
     padding-left: 1.5rem;

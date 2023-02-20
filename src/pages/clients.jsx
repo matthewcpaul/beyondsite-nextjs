@@ -6,7 +6,7 @@ export default function Layout({ children }) {
     <>
       <Header />
       <main className={styles.wrapper}>
-        <h1>Industry</h1>
+        <h1>Clients</h1>
       </main>
     </>
   )
