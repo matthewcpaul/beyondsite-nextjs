@@ -12,21 +12,11 @@
 }
 
 .logoLight {
-  display: block;
-}
-
-.logoDark {
   display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  .logoLight {
-    display: none;
-  }
-  
-  .logoDark {
-    display: block;
-  }
+.logoDark {
+  display: block;
 }
 
 .navPrimary {
@@ -39,24 +29,15 @@
 .navLink {
   font-size: 1.125rem;
   line-height: 1.5rem;
-  color: #A2FFCB;
+  color: var(--color-teal);
   text-decoration: none;
 }
 
 .navLinkActive {
   font-size: 1.125rem;
   line-height: 1.5rem;
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-color: #3C8852;
-  text-decoration-thickness: 0.125em;
-  text-underline-offset: 3px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .navLinkActive {
-    text-decoration-color: #C5FD55;
-  }
+  color: var(--color-zap);
+  text-decoration: none;
 }
 
 /* Enable hover only on non-touch devices */
