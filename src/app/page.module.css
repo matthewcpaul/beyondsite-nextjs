@@ -37,7 +37,10 @@
   font-size: 1.125rem;
   line-height: 1.5rem;
   color: var(--color-zap);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: var(--color-zap);
+  text-decoration-thickness: 0.125em;
+  text-underline-offset: 3px;
 }
 
 /* Enable hover only on non-touch devices */
