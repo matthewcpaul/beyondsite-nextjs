@@ -1,7 +1,6 @@
 import styles from '../app/page.module.css'
-import Image from 'next/image'
-import LogoDark from '../../public/beyondsite_logo_dark.svg'
-import LogoLight from '../../public/beyondsite_logo_light.svg'
+// import Image from 'next/image'
+import Logo from '../../public/BeyondSite_Logo.svg'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
 
@@ -12,8 +11,7 @@ const NavBar = () => {
   return (
     <div className={styles.header}>
       <Link href='/' className={currentRoute === '/' ? styles.navLinkActive : styles.navLink}>
-        <Image src={LogoLight} alt="BeyondSite logo for light theme" className={styles.logoLight}/>
-        <Image src={LogoDark} alt="BeyondSite logo for dark theme" className={styles.logoDark}/>
+        <Logo className={styles.logo} alt="BeyondSite logo" />
       </Link>
       <nav className={styles.navPrimary}>
         <Link href='/clients' className={currentRoute === '/clients' ? styles.navLinkActive : styles.navLink}>Clients</Link>

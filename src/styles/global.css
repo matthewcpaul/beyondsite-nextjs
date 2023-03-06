@@ -9,10 +9,10 @@
   --max-width: 1100px;
   --max-width-pre-launch: 42rem;
 
-  --color-emerald: #034758;
-  --color-zap: #DBFC6B;
-  --color-teal: #9EFAC7;
-  --color-body-dark: #172326;
+  --color-primary: #55105B;
+  --color-secondary: #FFFF57;
+  --color-tertiary: #D88BF9;
+  --color-body: #251726;
 
   --border-radius: 12px;
 }
@@ -33,20 +33,20 @@ body {
   font-family: var(--font);
   font-weight: 400;
   color: var(--color-body);
-  background-color: var(--color-emerald);
+  background-color: var(--color-primary);
 }
 
 h1 {
   font-size: 4.125rem;
   line-height: 5rem;
   font-weight: 600;
-  color: var(--color-zap);
+  color: var(--color-secondary);
 }
 
 a {
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: var(--color-zap);
+  text-decoration-color: var(--color-secondary);
   text-decoration-thickness: 0.125em;
   text-underline-offset: 3px;
 }

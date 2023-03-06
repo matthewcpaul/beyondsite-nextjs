@@ -11,12 +11,12 @@
   padding: 2rem 2.5rem;
 }
 
-.logoLight {
-  display: none;
+.logo {
+  display: block;
 }
 
-.logoDark {
-  display: block;
+.logo path {
+  fill: var(--color-tertiary);
 }
 
 .navPrimary {
@@ -29,16 +29,16 @@
 .navLink {
   font-size: 1.125rem;
   line-height: 1.5rem;
-  color: var(--color-teal);
+  color: var(--color-tertiary);
   text-decoration: none;
 }
 
 .navLinkActive {
   font-size: 1.125rem;
   line-height: 1.5rem;
-  color: var(--color-zap);
+  color: var(--color-secondary);
   text-decoration: underline;
-  text-decoration-color: var(--color-zap);
+  text-decoration-color: var(--color-secondary);
   text-decoration-thickness: 0.125em;
   text-underline-offset: 3px;
 }
